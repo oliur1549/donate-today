@@ -54,7 +54,6 @@ body{
 }
 .donate-today h4{
     text-align: center;
-    
     font-weight: 300;
 }
 .donate-amount{
@@ -65,10 +64,6 @@ body{
     
 }
 .donate-amount li{
-    /* flex: 0 0 200px;
-    height: 120px;
-    text-align: center;
-    vertical-align: 20px; */
     padding: 35px 20px;
     margin: 5px;
     font-weight: 800;
@@ -93,8 +88,7 @@ body{
     background-color: #ff5959;
     border: none;
     border-radius: 5px;
-    margin-left: 43.5%;
-    margin-top: 20px;
+    margin: 20px 40% 20px 45%;
     position: absolute;
 }
 .donate-today-btn:focus{
@@ -149,21 +143,6 @@ body{
 }
 .education img{
     padding-top: 40px;
-}
-footer{
-    height: 150px;
-    color: #ff5959;
-    text-align: center;
-    font-style: italic;
-    padding-top: 20px;
-    background: #000;
-    margin-top: 100px;
-}
-footer h4{
-    color: gray;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 13px;
 }
 section{
     display: flex;
@@ -221,7 +200,7 @@ section{
     font-size: 15px;
     border: none;
     margin-top: 70px;
-    margin-left: 135px;
+    margin-left: 30%;
     background-color: #d9d9d9;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -241,4 +220,22 @@ section{
 }
 .subscribe-btn:focus{
     cursor: pointer;
+}
+footer{
+    height: 150px;
+    color: #ff5959;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    background: #000;
+    margin-top: 100px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+}
+footer h4{
+    color: gray;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
 }
