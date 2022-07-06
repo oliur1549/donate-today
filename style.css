@@ -57,8 +57,8 @@ body{
 .donate-amount{
     display: flex;
     list-style: none;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left:  25%;
+    padding-right: 25%;
     
 }
 .donate-amount li{
@@ -66,7 +66,7 @@ body{
     height: 120px;
     text-align: center;
     vertical-align: 20px; */
-    padding: 50px;
+    padding: 35px 20px;
     margin: 5px;
     font-weight: 800;
     font-size: 30px;
@@ -118,6 +118,9 @@ body{
     border-radius: 5px;
     background-color: #edf5f6;
 }
+.food img{
+    padding-top: 40px;
+}
 .shelter{
     padding-left: 20px;
     margin: 10px;
@@ -126,6 +129,9 @@ body{
     border-radius: 5px;
     background-color: #ffeeee;
 }
+.shelter img{
+    padding-top: 40px;
+}
 .education{
     padding-left: 20px;
     margin: 10px;
@@ -133,6 +139,9 @@ body{
     border-radius: 5px;
     height: 300px;
     background-color: #fff4d6;
+}
+.education img{
+    padding-top: 40px;
 }
 footer{
     height: 150px;
@@ -148,4 +157,34 @@ footer h4{
     font-style: normal;
     font-weight: 100;
     font-size: 13px;
+}
+section{
+    display: flex;
+    padding-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.blog-text{
+    width: 50%;
+    padding-right: 50px;
+}
+.blog-text h1{
+    font-size: 40px;
+}
+.blog-text p{
+    font-weight: 300;
+    color: rgb(136, 131, 131);
+}
+.relief{
+    width: 50%;
+    height: 500px;
+}
+.how-donate-btn{
+    padding: 15px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #ff5959;
+    border: none;
+    border-radius: 5px;
 }
