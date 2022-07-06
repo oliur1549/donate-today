@@ -24,7 +24,7 @@ body{
     transform: translate(-50%, -20px);
     color: white;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
 }
 .donate-btn{
     position: absolute;
@@ -37,6 +37,9 @@ body{
     border: none;
     border-radius: 5px;
 }
+.donate-btn:focus{
+    cursor: pointer;
+}
 .donate-today{
     margin-top: 100px;
 }
@@ -46,7 +49,7 @@ body{
 }
 .donate-today h3{
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(136, 131, 131);
 }
 .donate-today h4{
@@ -78,7 +81,9 @@ body{
     border-radius: 5px;
 }
 #line{
-    width: 70%;
+    width: 55%;
+    text-align: center;
+    margin-left: 24%;
 }
 .donate-today-btn{
     text-align: center;
@@ -92,7 +97,9 @@ body{
     margin-top: 20px;
     position: absolute;
 }
-
+.donate-today-btn:focus{
+    cursor: pointer;
+}
 .donate-plan{
     margin-top: 200px;
 }
@@ -102,7 +109,7 @@ body{
 }
 .donate-plan h3{
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(136, 131, 131);
 }
 .all-donate-plan{
@@ -173,7 +180,7 @@ section{
     font-size: 40px;
 }
 .blog-text p{
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(136, 131, 131);
 }
 .relief{
@@ -187,4 +194,51 @@ section{
     background-color: #ff5959;
     border: none;
     border-radius: 5px;
+}
+.how-donate-btn:focus{
+    cursor: pointer;
+}
+.my-updates{
+    margin-top: 100px;
+}
+.my-updates h1{
+    text-align: center;
+    font-size: 40px;
+}
+.my-updates h3{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(136, 131, 131);
+}
+.subscribe{
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+    background-color: #fff4d6;
+}
+.subscribe input{
+    padding: 15px 40px;
+    font-size: 15px;
+    border: none;
+    margin-top: 70px;
+    margin-left: 135px;
+    background-color: #d9d9d9;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.subscribe input:focus{
+    outline: none !important;
+}
+.subscribe-btn{
+    padding: 15px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #ff5959;
+    border: none;
+    margin: -5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.subscribe-btn:focus{
+    cursor: pointer;
 }
